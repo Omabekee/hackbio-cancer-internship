@@ -7,8 +7,8 @@
 Clustering is a type of unsupervised learning which involves finding patterns within data distribution and regrouping the data into multiple clusters according to a defined distance measure so that the elements in one cluster are highly similar (intra-similarity) and the similarity between clusters (inter-similarity) is as tiny as possible (Oyewole & Thopil, 2023).
 
 <figure>
-  <img src="images/clusterinng.png" alt="Figure 1: Clustering" width="600">
-  <figcaption>Figure 1: Clustering</figcaption>
+  <img src="images/clusterinng.png" alt="Figure 1: Clustering (Ezugwu et al., 2020)" width="600">
+  <figcaption>Figure 1: Clustering (Ezugwu <i>et al</i>., 2020)</figcaption>
 </figure>
 
 ## Classification of clustering algorithms
@@ -16,8 +16,8 @@ Clustering is a type of unsupervised learning which involves finding patterns wi
 There are five main categories of clustering algorithms: Partition-based clustering, Hierarchical clustering, Model-based clustering, Density-based clustering, and Grid-based clustering (Mehta _et al_., 2020).
 
 <figure>
-  <img src="images/classification_of_clustering.png" alt="Figure 2: Classification of Clustering Algorithms (Mehta _et al_., 2020)" width="600">
-  <figcaption>Figure 2: Classification of Clustering Algorithms (Mehta _et al_., 2020)</figcaption>
+  <img src="images/classification_of_clustering.png" alt="Figure 2: Classification of Clustering Algorithms (Mehta et al., 2020)" width="600">
+  <figcaption>Figure 2: Classification of Clustering Algorithms (Mehta <i>et al</i>., 2020)</figcaption>
 </figure>
 
 
@@ -32,7 +32,7 @@ Figure 3 describes a typical workflow of clustering, beginning from data collect
 
 ## Applications of Clustering in Cancer Research
 
-1. **Identification of tumour subtypes/ biomarkers for early diagnosis:** Early diagnosis significantly improves patient survival, reduces treatment costs, and increases our understanding of the tumour immune microenvironment to inform more personalized immunotherapy approaches (Fahami _et al_., 2021)**.** Various domains where clustering algorithms have been applied in this specific area include the detection of genes that have a significant impact on the mortality rate of colon cancer (Fahami _et al_., 2021) and identification of lung cancer subtypes using gene expression and clinical datasets (Kasa _et al_., 2020).
+1. **Identification of tumour subtypes/ biomarkers for early diagnosis:** Early diagnosis significantly improves patient survival, reduces treatment costs, and increases our understanding of the tumour immune microenvironment to inform more personalized immunotherapy approaches (Fahami _et al_., 2021)**.** Various domains where clustering algorithms have been applied in this specific area include the detection of genes that have a significant impact on the mortality rate of colon cancer (Fahami _et al_., 2021) and the identification of lung cancer subtypes using gene expression and clinical datasets (Kasa _et al_., 2020).
 
 2. **Identification of tumour subtypes for risk assessment and prediction:** The heterogeneity of cancers among individuals is evidence that cancer subtypes exist. Clustering algorithms coupled with supervised machine learning algorithms are used to categorize patients into specific low-risk and high-risk groups and then propose prediction models or risk score calculators (Guo _et al_., 2021).
 
