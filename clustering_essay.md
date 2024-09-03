@@ -21,7 +21,7 @@ Figure 3 describes a typical workflow of clustering, beginning from data collect
 
 ![Figure 3: Cluster Analysis Pipeline (Chioma Onyido)](images/cluster_analysis_pipeline.png) 
 
-## Applications of Clustering
+## Applications of Clustering in Cancer Research
 
 1. **Identification of tumour subtypes/ biomarkers for early diagnosis:** Early diagnosis significantly improves patient survival, reduces treatment costs, and increases our understanding of the tumour immune microenvironment to inform more personalized immunotherapy approaches (Fahami _et al_., 2021)**.** Various domains where clustering algorithms have been applied in this specific area include the detection of genes that have a significant impact on the mortality rate of colon cancer (Fahami _et al_., 2021) and identification of lung cancer subtypes using gene expression and clinical datasets (Kasa _et al_., 2020).
 
@@ -31,11 +31,11 @@ Figure 3 describes a typical workflow of clustering, beginning from data collect
 
 ![Figure 4: K-means Brain Tumour Example in R (Technophiles, 2020)](images/kmeans_brain_tumor.jpg)
 
-**Conclusion**
+## Conclusion
 
 Clustering algorithms are essential tools in cancer research. They help us pinpoint tumour subtypes, predict patient outcomes, classify the severity of disease complications using images and tailor treatments to individual needs. As we continue to explore these tools, they’re proving to be indispensable in pushing cancer research forward and improving patient care.
 
-**REFERENCES**
+## REFERENCES
 
 Chillakuru, Y. R., Kranen, K., Doppalapudi, V., Xiong, Z., Fu, L., Heydari, A., Sheth, A., Seo, Y., Vu, T., & Sohn, J. H. (2021). High precision localization of pulmonary nodules on chest CT utilizing axial  slice number labels. _BMC Medical Imaging_, _21_(1), 66. https\://doi.org/10.1186/s12880-021-00594-4
 
