@@ -19,7 +19,7 @@ There are five main categories of clustering algorithms: Partition-based cluster
 
 Figure 3 describes a typical workflow of clustering, beginning from data collection down to the validation of identified clusters using specific metrics such as the rand, silhouette, and Dunn metrics, to mention a few. Subsequently, bioinformatics analysis methods are applied to the identified clusters to annotate genes and pathways and identify potential relationships between those genes and specific biological events (Pineda _et al_., 2021). 
 
-<img src="images/cluster_analysis_pipeline.png" alt="Figure 3: Cluster Analysis Pipeline (Chioma Onyido)" width="800">
+<img src="images/cluster_analysis_pipeline.png" alt="Figure 3: Cluster Analysis Pipeline (Chioma Onyido)" width="600">
 
 ## Applications of Clustering in Cancer Research
 
@@ -29,7 +29,7 @@ Figure 3 describes a typical workflow of clustering, beginning from data collect
 
 3. **Image segmentation:** K-means and hierarchical clustering have been employed to cluster functional images to identify high-risk sub-volumes in lung cancer (Even _et al_., 2017). DBSCAN and deep learning have been used to develop a high-precision lung nodule detector to enable reidentification of previous nodules during lung cancer screening (Chillakuru _et al_., 2021).
 
-![Figure 4: K-means Brain Tumour Example in R (Technophiles, 2020)](images/kmeans_brain_tumor.jpg)
+<img src="images/kmeans_brain_tumor.jpg" alt="Figure 4: K-means Brain Tumour Example in R (Technophiles, 2020)" width="600">
 
 ## Conclusion
 
