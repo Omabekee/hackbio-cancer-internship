@@ -57,9 +57,5 @@ Pineda, L.A., Pourshafeie, A., Ioannidis, A., Leibold, C. M., Chan, A. L., Busta
 
 Technophiles (2020). K means clustering algorithm; K means brain tumor example in R and machine learning algorithms. Accessed from <https://www.youtube.com/watch?reload=9&app=desktop&v=aqQrSNI8qGI> on September 2<sup>nd</sup>, 2024.
 
- 
-
-\
-
 
 <!--EndFragment-->
