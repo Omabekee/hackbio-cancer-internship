@@ -7,7 +7,7 @@
 Clustering is a type of unsupervised learning which involves finding patterns within data distribution and regrouping the data into multiple clusters according to a defined distance measure so that the elements in one cluster are highly similar (intra-similarity) and the similarity between clusters (inter-similarity) is as tiny as possible (Oyewole & Thopil, 2023).
 
 <figure>
-  <img src="images/clustering.png" alt="Figure 1: Clustering" width="400">
+  <img src="images/clusterinng.png" alt="Figure 1: Clustering" width="600">
   <figcaption>Figure 1: Clustering</figcaption>
 </figure>
 
@@ -16,7 +16,7 @@ Clustering is a type of unsupervised learning which involves finding patterns wi
 There are five main categories of clustering algorithms: Partition-based clustering, Hierarchical clustering, Model-based clustering, Density-based clustering, and Grid-based clustering (Mehta _et al_., 2020).
 
 <figure>
-  <img src="images/classification_of_clustering.png" alt="Figure 2: Classification of Clustering Algorithms (Mehta _et al_., 2020)" width="400">
+  <img src="images/classification_of_clustering.png" alt="Figure 2: Classification of Clustering Algorithms (Mehta _et al_., 2020)" width="600">
   <figcaption>Figure 2: Classification of Clustering Algorithms (Mehta _et al_., 2020)</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ There are five main categories of clustering algorithms: Partition-based cluster
 Figure 3 describes a typical workflow of clustering, beginning from data collection down to the validation of identified clusters using specific metrics such as the rand, silhouette, and Dunn metrics, to mention a few. Subsequently, bioinformatics analysis methods are applied to the identified clusters to annotate genes and pathways and identify potential relationships between those genes and specific biological events (Pineda _et al_., 2021). 
 
 <figure>
-  <img src="images/cluster_analysis_pipeline.png" alt="Figure 3: Cluster Analysis Pipeline (Chioma Onyido)" width="400">
+  <img src="images/cluster_analysis_pipeline.png" alt="Figure 3: Cluster Analysis Pipeline (Chioma Onyido)" width="600">
   <figcaption>Figure 3: Cluster Analysis Pipeline (Chioma Onyido)</figcaption>
 </figure>
 
