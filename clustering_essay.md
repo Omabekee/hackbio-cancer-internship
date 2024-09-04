@@ -11,7 +11,7 @@ Clustering is a type of unsupervised learning which involves finding patterns wi
   <figcaption>Figure 1: Clustering (Ezugwu <i>et al</i>., 2020)</figcaption>
 </figure>
 
-## Classification of clustering algorithms
+## Classification of Clustering Algorithms
 
 There are five main categories of clustering algorithms: Partition-based clustering, Hierarchical clustering, Model-based clustering, Density-based clustering, and Grid-based clustering (Mehta _et al_., 2020).
 
