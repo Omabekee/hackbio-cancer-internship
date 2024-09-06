@@ -8,7 +8,6 @@ Therapy responses for breast cancer are influenced by the tumour ecology. Machin
 
 <figure>
   <img src="images/figure1.png" alt="Figure 1: Overview of the study design" width="800">
-  
   <figcaption>Figure 1: Overview of the study design</figcaption>
 </figure>
 
@@ -27,14 +26,12 @@ To predict the pCR to breast cancer therapy, six ensemble machine learning model
 
 <figure>
   <img src="images/figure2.png" alt="Figure 2: Schematic of the machine learning framework" width="800">
-  
   <figcaption>Figure 2: Schematic of the machine learning framework</figcaption>
 </figure>
 
 
 <figure>
-  <img src="images/figure3.png" alt="Figure 3: AUCs for models obtained from the external validation cohorts" width="800">
-  
+  <img src="images/figure3.png" alt="Figure 3: AUCs for models obtained from the external validation cohorts" width="600">
   <figcaption>Figure 3: AUCs for models obtained from the external validation cohorts</figcaption>
 </figure>
 
