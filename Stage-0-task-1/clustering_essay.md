@@ -6,31 +6,43 @@
 
 Clustering is a type of unsupervised learning which involves finding patterns within data distribution and regrouping the data into multiple clusters according to a defined distance measure so that the elements in one cluster are highly similar (intra-similarity) and the similarity between clusters (inter-similarity) is as tiny as possible (Oyewole & Thopil, 2023).
 
-![Figure 1: Clustering (Ezugwu _et al_., 2020)](images/clusterinng.png)
+<figure>
+  <img src="images/clusterinng.png" alt="Figure 1: Clustering (Ezugwu et al., 2020)" width="600">
+  <figcaption>Figure 1: Clustering (Ezugwu <i>et al</i>., 2020)</figcaption>
+</figure>
 
-## Classification of clustering algorithms
+## Classification of Clustering Algorithms
 
 There are five main categories of clustering algorithms: Partition-based clustering, Hierarchical clustering, Model-based clustering, Density-based clustering, and Grid-based clustering (Mehta _et al_., 2020).
 
-![Figure 2: Classification of Clustering Algorithms (Mehta _et al_., 2020)](images/classification_of_clustering.png)
+<figure>
+  <img src="images/classification_of_clustering.png" alt="Figure 2: Classification of Clustering Algorithms (Mehta et al., 2020)" width="600">
+  <figcaption>Figure 2: Classification of Clustering Algorithms (Mehta <i>et al</i>., 2020)</figcaption>
+</figure>
 
 
-## Cluster analysis workflow
+## Cluster Analysis Workflow
 
 Figure 3 describes a typical workflow of clustering, beginning from data collection down to the validation of identified clusters using specific metrics such as the rand, silhouette, and Dunn metrics, to mention a few. Subsequently, bioinformatics analysis methods are applied to the identified clusters to annotate genes and pathways and identify potential relationships between those genes and specific biological events (Pineda _et al_., 2021). 
 
-![Figure 3: Cluster Analysis Pipeline (Chioma Onyido)](images/cluster_analysis_pipeline.png) 
+<figure>
+  <img src="images/cluster_analysis_pipeline.png" alt="Figure 3: Cluster Analysis Pipeline (Chioma Onyido)" width="600">
+  <figcaption>Figure 3: Cluster Analysis Pipeline (Chioma Onyido)</figcaption>
+</figure>
 
-## Applications of Clustering in Cancer Research
+## Case Studies: Applications of Clustering in Cancer Research
 
-1. **Identification of tumour subtypes/ biomarkers for early diagnosis:** Early diagnosis significantly improves patient survival, reduces treatment costs, and increases our understanding of the tumour immune microenvironment to inform more personalized immunotherapy approaches (Fahami _et al_., 2021)**.** Various domains where clustering algorithms have been applied in this specific area include the detection of genes that have a significant impact on the mortality rate of colon cancer (Fahami _et al_., 2021) and identification of lung cancer subtypes using gene expression and clinical datasets (Kasa _et al_., 2020).
+1. **Identification of tumour subtypes/ biomarkers for early diagnosis:** Early diagnosis significantly improves patient survival, reduces treatment costs, and increases our understanding of the tumour immune microenvironment to inform more personalized immunotherapy approaches (Fahami _et al_., 2021)**.** Various domains where clustering algorithms have been applied in this specific area include the detection of genes that have a significant impact on the mortality rate of colon cancer (Fahami _et al_., 2021) and the identification of lung cancer subtypes using gene expression and clinical datasets (Kasa _et al_., 2020).
 
 2. **Identification of tumour subtypes for risk assessment and prediction:** The heterogeneity of cancers among individuals is evidence that cancer subtypes exist. Clustering algorithms coupled with supervised machine learning algorithms are used to categorize patients into specific low-risk and high-risk groups and then propose prediction models or risk score calculators (Guo _et al_., 2021).
 
-3. **Image segmentation:** K-means and hierarchical clustering have been employed to cluster functional images to identify high-risk sub-volumes in lung cancer (Even _et al_., 2017). DBSCAN and deep learning have been used to develop a high-precision lung nodule detector to enable reidentification of previous nodules during lung cancer screening (Chillakuru _et al_., 2021).
+3. **Image segmentation:** K-means and hierarchical clustering have been employed to cluster functional images to identify high-risk sub-volumes in lung cancer (Even _et al_., 2017). Chillakuru _et al_. (2021) have applied DBSCAN and deep learning to develop a high-precision lung nodule detector to enable reidentification of previous nodules during lung cancer screening.
 
-![Figure 4: K-means Brain Tumour Example in R (Technophiles, 2020)](images/kmeans_brain_tumor.jpg)
-
+<figure>
+  <img src="images/kmeans_brain_tumor.jpg" alt="Figure 4: K-means Brain Tumour Example in R (Technophiles, 2020)" width="600">
+  <figcaption>Figure 4: K-means Brain Tumour Example in R (Technophiles, 2020)
+</figure>
+    
 ## Conclusion
 
 Clustering algorithms are essential tools in cancer research. They help us pinpoint tumour subtypes, predict patient outcomes, classify the severity of disease complications using images and tailor treatments to individual needs. As we continue to explore these tools, they’re proving to be indispensable in pushing cancer research forward and improving patient care.
