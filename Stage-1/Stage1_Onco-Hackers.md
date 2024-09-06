@@ -6,11 +6,14 @@
 Therapy responses for breast cancer are influenced by the tumour ecology. Machine learning and multi-omic profiling improves personalised therapeutic strategies and response prediction. This study is aimed at identifying which tumour would react better to therapy and why. 
 
 
-<figure>
-  <img src="images/figure1.png" alt="Figure 1: Overview of the study design" width="800">
-  <figcaption>Figure 1: Overview of the study design</figcaption>
-</figure>
+<div style="text-align: center;">
+  <figure>
+    <img src="images/figure1.png" alt="Figure 1: Overview of the study design" style="max-width: 100%; height: auto;">
+    <figcaption style="margin-top: 10px;"><em>Figure 1: Overview of the study design</em></figcaption>
+  </figure>
+</div>
 
+<p style="margin-top: 20px;">Here is the text that follows the figure.</p>
 
 Pre-therapy breast tumours from 168 patients were profiled using DNA and RNA sequencing and digital pathology analysis. After patients underwent chemotherapy for about 18 weeks, findings revealed that 26% of patients had pathological complete response (pCR), while other patients had remaining cancer in varied degrees.
 
