@@ -8,6 +8,7 @@ Therapy responses for breast cancer are influenced by the tumour ecology. Machin
 
 <figure>
   <img src="images/figure1.png" alt="Figure 1: Overview of the study design" width="800">
+  
   <figcaption>Figure 1: Overview of the study design</figcaption>
 </figure>
 
@@ -25,14 +26,16 @@ Tumours accomplishing pCR were found to over-express genes such as EGFR, CDKN2A 
 To predict the pCR to breast cancer therapy, six ensemble machine learning models were developed with different feature sets - clinical, molecular and digital pathology data incorporated (Figure 2). An external cohort of 75 patients yielded the highest accuracy (AUC 0.87) for the fully integrated model (Figure 3). Immune activity, gene expression, proliferation, lymphocyte density and age were top predictive features.
 
 <figure>
-  <img src="images/figure2.png" alt="Figure 2: Schematic of the machine learning framework" width="600">
+  <img src="images/figure2.png" alt="Figure 2: Schematic of the machine learning framework" width="800">
+  
   <figcaption>Figure 2: Schematic of the machine learning framework</figcaption>
 </figure>
 
 
 <figure>
-  <img src="images/figure3.png" alt="Figure 3: AUCs for models obtained from the external validation cohorts" width="600">
-  <figcaption>AUCs for models obtained from the external validation cohorts</figcaption>
+  <img src="images/figure3.png" alt="Figure 3: AUCs for models obtained from the external validation cohorts" width="800">
+  
+  <figcaption>Figure 3: AUCs for models obtained from the external validation cohorts</figcaption>
 </figure>
 
 
