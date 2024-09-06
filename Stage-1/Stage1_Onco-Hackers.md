@@ -10,7 +10,9 @@ Therapy responses for breast cancer are influenced by the tumour ecology. Machin
   <img src="images/figure1.png" alt="Figure 1: Overview of the study design" width="800">
   <figcaption>Figure 1: Overview of the study design</figcaption>
 </figure>
-<p style="margin-top: 20px;">Pre-therapy breast tumours from 168 patients were profiled using DNA and RNA sequencing and digital pathology analysis. After patients underwent chemotherapy for about 18 weeks, findings revealed that 26% of patients had pathological complete response (pCR), while other patients had remaining cancer in varied degrees.</p>
+
+
+Pre-therapy breast tumours from 168 patients were profiled using DNA and RNA sequencing and digital pathology analysis. After patients underwent chemotherapy for about 18 weeks, findings revealed that 26% of patients had pathological complete response (pCR), while other patients had remaining cancer in varied degrees.
 
 ## Key Biological Features Identified
 They found that tumours attaining pCR had more neoantigens, higher mutation burdens and fewer subclonal mutations. Additionally, aggressive subtypes with higher pCR rates included TP53 and triple-negative mutant tumours. Loss of HLA class I genes increased the incidence of residual disease and decreased treatment response by impeding the presentation of neoantigens.
