@@ -25,15 +25,20 @@ To load libraries after installation, use  *library(packagename)*
 
 3. **Clustering Methods in the Heatmap**: Performed clustering by rows (genes), columns (samples) and both. This approach helps in understanding which samples are similar and which genes have similar expression patterns across these samples.
 
-i). **Clustering Genes (Rows)**: helps identify gene sets with similar behaviour, which may indicate co-regulated genes or genes involved in the same biological processes.
+     i). **Clustering Genes (Rows)**: helps identify gene sets with similar behaviour, which 
+     may indicate co-regulated genes or genes involved in the same biological processes.
 
-ii). **Clustering Samples (Columns)**: helps to find subtypes within the dataset based on their gene expression patterns.
+     ii). **Clustering Samples (Columns)**: helps to find subtypes within the dataset based 
+     on their gene expression patterns.
 
-iii). **Clustering Both Genes and Samples (Rows and Columns)**: provided a comprehensive view of the data, showing how gene groups and sample profiles relate to each other.
+     iii). **Clustering Both Genes and Samples (Rows and Columns)**: provided a 
+     comprehensive view of the data, showing how gene groups and sample profiles relate to 
+     each other.
   
      
-   **R Function**: *heatmap.2()* is a function used to generate heatmaps.  
-   *colorRampPalette* used to create custom colour palettes to visually distinguish data patterns.  
+     **R Function**: *heatmap.2()* is a function used to generate heatmaps.  
+     *colorRampPalette* used to create custom colour palettes to visually distinguish data 
+     patterns.  
      
 5. **Identification of Significant Genes:** Using the clusters generated from figure above, the samples were divided into two groups. Subsequently, log fold change was calculated by taking the log2 difference between the mean gene expression of Group B and Group A, with a small constant added for stability.  
    **LogFC formula**: *log2(groupB\_mean \+ 0.5) \- log2(groupA\_mean \+ 0.5)*  
