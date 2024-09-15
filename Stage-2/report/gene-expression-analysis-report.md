@@ -16,36 +16,38 @@ Heatmaps were used to visualise gene expression levels across samples, highlight
 
 The diverging palette shows high (brown) and low (blue) expression values, with a neutral colour (white) in the middle, making it easy to see contrasts between upregulated and downregulated genes across samples.
 
-\<figure\>  
-  \<img src="figures/diverging\_color\_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800"\>  
-  \<figcaption\>Figure 1: Gene expression diverging heatmap\</figcaption\>  
-\</figure\>  
+<figure>  
+  <img src="figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800">  
+  <figcaption>Figure 1: Gene expression diverging heatmap</figcaption>  
+</figure>
+
+
 2.2  Sequential Color Palette  
 The sequential palette as displayed in Figure 2 showed a gradient of values, making it easier to identify subtle differences in gene expression. They are also useful for visualising the increasing levels of gene expression activity across samples.
 
-\<figure\>  
-  \<img src="figures/sequential\_color\_scale.png" alt="Figure 2: Gene expression sequential heatmap" width="800"\>  
-  \<figcaption\>Figure 2: Gene expression sequential heatmap\</figcaption\>  
-\</figure\>
+<figure>  
+  <img src="figures/sequential_color_scale.png" alt="Figure 2: Gene expression sequential heatmap" width="800">  
+  <figcaption>Figure 2: Gene expression sequential heatmap</figcaption>  
+</figure>
 
 ##### 2.3 Clustering Methods in the Heatmap
 
 Heatmaps were created using three different clustering methods: clustering by genes (rows), clustering by samples (columns) and clustering by both genes and samples (rows and columns) (Zhao *et al*., 2014\). 
 
-\<figure\>  
-  \<img src="figures/heatmap\_by\_genes.png" alt="Figure 3: Clustering by genes heatmap" width="800"\>  
-  \<figcaption\>Figure 3: Clustering by genes heatmap\</figcaption\>  
-\</figure\>
+<figure>  
+  <img src="figures/heatmap_by_genes.png" alt="Figure 3: Clustering by genes heatmap" width="800">  
+  <figcaption>Figure 3: Clustering by genes heatmap</figcaption>  
+</figure>
 
-\<figure\>  
-  \<img src="figures/heatmap\_by\_samples.png" alt="Figure 4: Clustering by samples heatmap" width="800"\>  
-  \<figcaption\>Figure 4: Clustering by samples heatmap\</figcaption\>  
-\</figure\>
+<figure>  
+  <img src="figures/heatmap_by_samples.png" alt="Figure 4: Clustering by samples heatmap" width="800">  
+  <figcaption>Figure 4: Clustering by samples heatmap</figcaption>  
+</figure>
 
-\<figure\>  
-  \<img src="figures/heatmap\_by\_genes\_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="800"\>  
-  \<figcaption\>Figure 5: Clustering by genes and samples heatmap\</figcaption\>  
-\</figure\>
+<figure>  
+  <img src="figures/heatmap_by_genes_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="800">  
+  <figcaption>Figure 5: Clustering by genes and samples heatmap</figcaption>  
+</figure>
 
 #### 3\. Identification of Significant Genes
 
@@ -65,19 +67,19 @@ pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)
 
 Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in the upregulated genes. 
 
-\<figure\>  
-  \<img src="figures/shinygo\_enrichment.png" alt="Figure 6: Key pathways and biological processes associated with upregulated genes" width="800"\>  
-  \<figcaption\>Figure 6: Key Pathways and Biological Processes Associated With Upregulated Genes\</figcaption\>  
-\</figure\>
+<figure>  
+  <img src="figures/shinygo_enrichment.png" alt="Figure 6: Key pathways and biological processes associated with upregulated genes" width="800">  
+  <figcaption>Figure 6: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
+</figure>
 
 #### 5\. Visualisation of Top 5 Upregulated Pathways
 
 The top 5 upregulated pathways were visualised using a lollipop plot, showing the number of associated genes and scaled by the \-log10 of the p-value to indicate pathway significance.
 
-\<figure\>  
-  \<img src="figures/upreg\_pathways.png" alt="Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800"\>  
- \<figcaption\>Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes\</figcaption\>  
-\</figure\>
+<figure>  
+  <img src="figures/upreg_pathways.png" alt="Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800">  
+ <figcaption>Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
+</figure>
 
 ##### 5.1 Biological Significance of Top 3 Enriched Pathways
 
