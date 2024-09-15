@@ -30,24 +30,31 @@ The sequential palette as displayed in Figure 2 showed a gradient of values, mak
   <figcaption>Figure 2: Gene expression sequential heatmap</figcaption>  
 </figure>
 
+
 ##### 2.3 Clustering Methods in the Heatmap
 
 Heatmaps were created using three different clustering methods: clustering by genes (rows), clustering by samples (columns) and clustering by both genes and samples (rows and columns) (Zhao *et al*., 2014\). 
+
+
 
 <figure>  
   <img src="figures/heatmap_by_genes.png" alt="Figure 3: Clustering by genes heatmap" width="800">  
   <figcaption>Figure 3: Clustering by genes heatmap</figcaption>  
 </figure>
 
+
+
 <figure>  
   <img src="figures/heatmap_by_samples.png" alt="Figure 4: Clustering by samples heatmap" width="800">  
   <figcaption>Figure 4: Clustering by samples heatmap</figcaption>  
 </figure>
 
+
 <figure>  
   <img src="figures/heatmap_by_genes_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="800">  
   <figcaption>Figure 5: Clustering by genes and samples heatmap</figcaption>  
 </figure>
+
 
 #### 3\. Identification of Significant Genes
 
@@ -57,10 +64,12 @@ Samples were grouped into two based on heatmap clusters for analysis (Figure 1).
 
 **Fold change** was calculated using the formula:   
 log2FC \= log2(groupB\_mean+0.5) \- log2(groupA\_mean+0.5)  
-(*0.5 was added to the log2 mean of each group to avoid inf results*)  
+(*0.5 was added to the log2 mean of each group to avoid inf results*).
+
 **p-value** was calculated using the formula:  
 pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)  
-(*Wilcoxon test* (Neuhäuser, 2011\) *was used for this analysis because it handles non-parametric data well*)  
+(*Wilcoxon test* (Neuhäuser, 2011\) *was used for this analysis because it handles non-parametric data well*).
+
 **Cut-offs:** fold change ( \> 1.5 and \< \-1.5), and a p-value (0.05).
 
 #### 4\.  Functional Enrichment Analysis
@@ -89,13 +98,20 @@ The top 5 upregulated pathways were visualised using a lollipop plot, showing th
 
 **3\. Disaccharide Metabolic Process**: Cancer cells are known for their reliance on glucose, and glioblastoma cells use disaccharide breakdown to sustain their energy (Lea & desBordes, 2020; Nguyen *et al*., 2022).
 
-**REFERENCES**
 
-Ge, S. X., Jung, D., & Yao, R. (2020). ShinyGO: A graphical gene-set enrichment tool for animals and plants. *Bioinformatics*, *36*(8), 2628–2629. [https://doi.org/10.1093/bioinformatics/btz931](https://doi.org/10.1093/bioinformatics/btz931)  
-Hanahan, D., & Weinberg, R. A. (2011). Hallmarks of cancer: the next generation. cell, 144(5), 646-674.  
-Lea, M. A., & desBordes, C. (2020). Maltose enhanced the growth of bladder and colon cancer cells unlike some other disaccharides: Cellobiose, isomaltose, lactose, and sucrose. Cancer Research, 80(16\_Supplement), 227-227.  
-Navarro, C., Ortega, Á., Santeliz, R., Garrido, B., Chacín, M., Galban, N., ... & Bermúdez, V. (2022). Metabolic reprogramming in cancer cells: emerging molecular mechanisms and novel therapeutic approaches. Pharmaceutics, 14(6), 1303\.  
-Nguyen, T. T., Shang, E., Westhoff, M. A., Karpel-Massler, G., & Siegelin, M. D. (2022). Therapeutic drug-induced metabolic reprogramming in glioblastoma. Cells, 11(19), 2956\.  
-Neuhäuser, M. (2011). Wilcoxon–Mann–Whitney Test. In M. Lovric (Ed.), *International Encyclopedia of Statistical Science* (pp. 1656–1658). Springer. https://doi.org/10.1007/978-3-642-04898-2\_615  
-Zhao, S., Guo, Y., Sheng, Q., & Shyr, Y. (2014). Advanced Heat Map and Clustering Analysis Using Heatmap3. *BioMed Research International*, *2014*, 986048\. https://doi.org/10.1155/2014/986048
+#### REFERENCES
+
+1. Ge, S. X., Jung, D., & Yao, R. (2020). ShinyGO: A graphical gene-set enrichment tool for animals and plants. *Bioinformatics*, *36*(8), 2628–2629. [https://doi.org/10.1093/bioinformatics/btz931](https://doi.org/10.1093/bioinformatics/btz931)
+
+2. Hanahan, D., & Weinberg, R. A. (2011). Hallmarks of cancer: the next generation. cell, 144(5), 646-674.
+
+3. Lea, M. A., & desBordes, C. (2020). Maltose enhanced the growth of bladder and colon cancer cells unlike some other disaccharides: Cellobiose, isomaltose, lactose, and sucrose. Cancer Research, 80(16\_Supplement), 227-227.
+
+4. Navarro, C., Ortega, Á., Santeliz, R., Garrido, B., Chacín, M., Galban, N., ... & Bermúdez, V. (2022). Metabolic reprogramming in cancer cells: emerging molecular mechanisms and novel therapeutic approaches. Pharmaceutics, 14(6), 1303.
+
+5. Nguyen, T. T., Shang, E., Westhoff, M. A., Karpel-Massler, G., & Siegelin, M. D. (2022). Therapeutic drug-induced metabolic reprogramming in glioblastoma. Cells, 11(19), 2956.
+
+6. Neuhäuser, M. (2011). Wilcoxon–Mann–Whitney Test. In M. Lovric (Ed.), *International Encyclopedia of Statistical Science* (pp. 1656–1658). Springer. https://doi.org/10.1007/978-3-642-04898-2\_615
+
+7. Zhao, S., Guo, Y., Sheng, Q., & Shyr, Y. (2014). Advanced Heat Map and Clustering Analysis Using Heatmap3. *BioMed Research International*, *2014*, 986048\. https://doi.org/10.1155/2014/986048
 
