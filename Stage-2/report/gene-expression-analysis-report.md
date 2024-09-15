@@ -17,7 +17,7 @@ Heatmaps were used to visualise gene expression levels across samples, highlight
 The diverging palette shows high (brown) and low (blue) expression values, with a neutral colour (white) in the middle, making it easy to see contrasts between upregulated and downregulated genes across samples.
 
 <figure>  
-  <img src="figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800">  
+  <img src="Stage-2/report/figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800">  
   <figcaption>Figure 1: Gene expression diverging heatmap</figcaption>  
 </figure>
 
