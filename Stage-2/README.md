@@ -44,9 +44,11 @@ To load libraries after installation, use  *library(packagename)*
 4. **Functional Enrichment Analysis**: Used ShinyGO (with default parameters and GO biological process database) to identify pathways enriched in the upregulated genes. The results obtained from ShinyGO were saved in a .csv file and used for visualisation (find file in *output* directory).  
      
 5. **Visualisation of Pathways**: Visualised the top 5 upregulated pathways using the results obtained from the enrichment analysis to generate a lollipop plot (scaled by the \-log10 of the p-value to indicate pathway significance) for better clarity and interpretation of the enriched pathways.  
-   **R Function**: *ggplot()* is used to create various plots in R, such as scatter plots, bar plots and lollipop plots in R, with customizations for layers, scales and  themes.  
-   
+   **R Function**: *ggplot()* is used to create various plots in R, such as scatter plots, bar plots and lollipop plots in R, with customizations for layers, scales and  themes.
 
+### Biological Significance of Top Upregulated Pathways
+In summary, the top three pathways all point to the adaptive ability of tumour cells to ensure their survival and proliferation, leading to metastasis.
+   
 ### Directory Structure
 
 * **/code**: This directory contains all the R codes used for data analysis and visualisation, for each step in the workflow.  
