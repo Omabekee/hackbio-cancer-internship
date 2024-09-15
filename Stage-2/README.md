@@ -55,6 +55,8 @@ To load libraries after installation, use  *library(packagename)*
 * **/ouput**: The output directory contains results from the project such as tables with the filtered significant genes and ShinyGO results obtained after enrichment analysis.  
 * **/report**: This is where you’ll find the project report documenting the steps and interpretations of the analysis.
 
+#### Visit live site
+You can view the live version of this project [here](https://omabekee.github.io/hackbio-cancer-internship/)
 
   
 
