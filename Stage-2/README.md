@@ -8,7 +8,8 @@ This project involves a walk-through of gene expression analysis of glioblastoma
 2. **ggplot2**: for creating various types of visualisations.  
 3. **RColorBrewer**: for diverging and sequential colour palettes in the heatmaps.  
 4. **dplyr**: for data manipulation such as filtering, selecting and summarising data.  
-5. **biomaRt**: for querying BioMart databases (such as Ensembl) for retrieving gene annotations  
+5. **biomaRt**: for querying BioMart databases (such as Ensembl) for retrieving gene annotations.
+6. **tidyverse**: is a set of R packages that includes ggplot2 for making plots, dplyr for handling data, tidyr for organizing data, and more.  
    
 
 **Code:** To install packages, use *install.packages(“packagename”)*  
