@@ -4,15 +4,15 @@
 
 #### GitHub Code: https://bit.ly/3XIVABC
 
-#### 1\. Introduction
+### 1\. Introduction
 
 This report covers gene expression analysis, visualisation and interpretation, using the expression profiles of glioblastoma samples, where each value shows a gene's expression level in a specific sample.
 
-#### 2\. Heatmap Visualisation and the Importance of Colour Palettes in Gene Expression Analysis
+### 2\. Heatmap Visualisation and the Importance of Colour Palettes in Gene Expression Analysis
 
 Heatmaps were used to visualise gene expression levels across samples, highlighting upregulated and downregulated genes. Two colour palettes, diverging and sequential, were used to aid interpretation.
 
-##### 2.1 Diverging Colour Palette
+#### 2.1 Diverging Colour Palette
 
 The diverging palette shows high (brown) and low (blue) expression values, with a neutral colour (white) in the middle, making it easy to see contrasts between upregulated and downregulated genes across samples.
 
@@ -22,7 +22,7 @@ The diverging palette shows high (brown) and low (blue) expression values, with 
 </figure>
 
 
-2.2  Sequential Color Palette  
+#### 2.2  Sequential Color Palette  
 The sequential palette as displayed in Figure 2 showed a gradient of values, making it easier to identify subtle differences in gene expression. They are also useful for visualising the increasing levels of gene expression activity across samples.
 
 <figure>  
@@ -31,7 +31,7 @@ The sequential palette as displayed in Figure 2 showed a gradient of values, mak
 </figure>
 
 
-##### 2.3 Clustering Methods in the Heatmap
+#### 2.3 Clustering Methods in the Heatmap
 
 Heatmaps were created using three different clustering methods: clustering by genes (rows), clustering by samples (columns) and clustering by both genes and samples (rows and columns) (Zhao *et al*., 2014\). 
 
@@ -56,11 +56,11 @@ Heatmaps were created using three different clustering methods: clustering by ge
 </figure>
 
 
-#### 3\. Identification of Significant Genes
+### 3\. Identification of Significant Genes
 
 Samples were grouped into two based on heatmap clusters for analysis (Figure 1). 
 
-##### 3.1 Calculate Fold Change and P-value
+#### 3.1 Calculate Fold Change and P-value
 
 **Fold change** was calculated using the formula:   
 log2FC \= log2(groupB\_mean+0.5) \- log2(groupA\_mean+0.5)  
@@ -72,7 +72,7 @@ pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)
 
 **Cut-offs:** fold change ( \> 1.5 and \< \-1.5), and a p-value (0.05).
 
-#### 4\.  Functional Enrichment Analysis
+### 4\.  Functional Enrichment Analysis
 
 Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in the upregulated genes. 
 
@@ -81,7 +81,7 @@ Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in 
   <figcaption>Figure 6: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
 </figure>
 
-#### 5\. Visualisation of Top 5 Upregulated Pathways
+### 5\. Visualisation of Top 5 Upregulated Pathways
 
 The top 5 upregulated pathways were visualised using a lollipop plot, showing the number of associated genes and scaled by the \-log10 of the p-value to indicate pathway significance.
 
@@ -90,7 +90,7 @@ The top 5 upregulated pathways were visualised using a lollipop plot, showing th
  <figcaption>Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
 </figure>
 
-##### 5.1 Biological Significance of Top 3 Enriched Pathways
+#### 5.1 Biological Significance of Top 3 Enriched Pathways
 
 **1\. Maltose Metabolic Process:** Cancer cells can use maltose (converted to glucose) for energy, driving proliferation and other processes, which may significantly impact glioma progression by promoting tumour growth and invasion (Hanahan & Weinberg, 2011).
 
@@ -99,7 +99,7 @@ The top 5 upregulated pathways were visualised using a lollipop plot, showing th
 **3\. Disaccharide Metabolic Process**: Cancer cells are known for their reliance on glucose, and glioblastoma cells use disaccharide breakdown to sustain their energy (Lea & desBordes, 2020; Nguyen *et al*., 2022).
 
 
-#### REFERENCES
+### REFERENCES
 
 1. Ge, S. X., Jung, D., & Yao, R. (2020). ShinyGO: A graphical gene-set enrichment tool for animals and plants. *Bioinformatics*, *36*(8), 2628–2629. [https://doi.org/10.1093/bioinformatics/btz931](https://doi.org/10.1093/bioinformatics/btz931)
 
