@@ -17,7 +17,7 @@ Heatmaps were used to visualise gene expression levels across samples, highlight
 The diverging palette shows high (brown) and low (blue) expression values, with a neutral colour (white) in the middle, making it easy to see contrasts between upregulated and downregulated genes across samples.
 
 <figure>  
-  <img src="figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800">  
+  <img src="figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="600">  
   <figcaption>Figure 2: Gene expression diverging heatmap</figcaption>  
 </figure>
 
@@ -42,18 +42,22 @@ Heatmaps were created using three different clustering methods: clustering by ge
   <figcaption>Figure 3: Clustering by genes heatmap</figcaption>  
 </figure>
 
-
+<p>&nbsp;</p>
 
 <figure>  
   <img src="figures/heatmap_by_samples.png" alt="Figure 4: Clustering by samples heatmap" width="800">  
   <figcaption>Figure 4: Clustering by samples heatmap</figcaption>  
 </figure>
 
+<p>&nbsp;</p>
+
 
 <figure>  
   <img src="figures/heatmap_by_genes_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="800">  
   <figcaption>Figure 5: Clustering by genes and samples heatmap</figcaption>  
 </figure>
+
+<p>&nbsp;</p>
 
 
 ### 3\. Identification of Significant Genes
