@@ -26,7 +26,7 @@ The diverging palette shows high (brown) and low (blue) expression values, with 
 The sequential palette as displayed in Figure 2 showed a gradient of values, making it easier to identify subtle differences in gene expression. They are also useful for visualising the increasing levels of gene expression activity across samples.
 
 <figure>  
-  <img src="figures/sequential_color_scale.png" alt="Figure 2: Gene expression sequential heatmap" width="600">  
+  <img src="figures/sequential_color_scale.png" alt="Figure 2: Gene expression sequential heatmap" width="800">  
   <figcaption>Figure 2: Gene expression sequential heatmap</figcaption>  
 </figure>
 
@@ -37,21 +37,21 @@ Heatmaps were created using three different clustering methods: clustering by ge
 
 
 <figure>  
-  <img src="figures/heatmap_by_genes.png" alt="Figure 3: Clustering by genes heatmap" width="600">  
+  <img src="figures/heatmap_by_genes.png" alt="Figure 3: Clustering by genes heatmap" width="800">  
   <figcaption>Figure 3: Clustering by genes heatmap</figcaption>  
 </figure>
 
 
 <p>&nbsp;</p>
 <figure>  
-  <img src="figures/heatmap_by_samples.png" alt="Figure 4: Clustering by samples heatmap" width="600">  
+  <img src="figures/heatmap_by_samples.png" alt="Figure 4: Clustering by samples heatmap" width="800">  
   <figcaption>Figure 4: Clustering by samples heatmap</figcaption>  
 </figure>
 
 
 <p>&nbsp;</p>
 <figure>  
-  <img src="figures/heatmap_by_genes_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="600">  
+  <img src="figures/heatmap_by_genes_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="800">  
   <figcaption>Figure 5: Clustering by genes and samples heatmap</figcaption>  
 </figure>
 
@@ -78,7 +78,7 @@ pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)
 Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in the upregulated genes. 
 
 <figure>  
-  <img src="figures/shinygo_enrichment.png" alt="Figure 6: Key pathways and biological processes associated with upregulated genes" width="600">  
+  <img src="figures/shinygo_enrichment.png" alt="Figure 6: Key pathways and biological processes associated with upregulated genes" width="800">  
   <figcaption>Figure 6: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
 </figure>
 
@@ -87,7 +87,7 @@ Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in 
 The top 5 upregulated pathways were visualised using a lollipop plot, showing the number of associated genes and scaled by the \-log10 of the p-value to indicate pathway significance.
 
 <figure>  
-  <img src="figures/upreg_pathways.png" alt="Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes" width="600">  
+  <img src="figures/upreg_pathways.png" alt="Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800">  
  <figcaption>Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
 </figure>
 
