@@ -18,7 +18,7 @@ The diverging palette shows high (brown) and low (blue) expression values, with 
 
 <figure>  
   <img src="figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800">  
-  <figcaption>Figure 2: Gene expression diverging heatmap</figcaption>  
+  <figcaption>Figure 1: Gene expression diverging heatmap</figcaption>  
 </figure>
 
 
