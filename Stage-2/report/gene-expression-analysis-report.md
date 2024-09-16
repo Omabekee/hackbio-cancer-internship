@@ -57,7 +57,6 @@ Heatmaps were created using three different clustering methods: clustering by ge
 
 
 
-<p>&nbsp;</p>
 ## 3\. Identification of Significant Genes
 
 Samples were grouped into two based on heatmap clusters for analysis (Figure 1). 
