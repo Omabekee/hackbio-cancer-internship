@@ -61,7 +61,7 @@ Heatmaps were created using three different clustering methods: clustering by ge
 
 Samples were grouped into two based on heatmap clusters for analysis (Figure 1). 
 
-### 3.1 Calculate Fold Change and P-value
+### 3.1 Calculate Fold Change (FC) and P-value
 
 **Fold change** was calculated using the formula:   
 log2FC \= log2(groupB\_mean+0.5) \- log2(groupA\_mean+0.5)  
@@ -73,13 +73,18 @@ pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)
 
 **Cut-offs:** fold change ( \> 1.5 and \< \-1.5), and a p-value (0.05).
 
+<figure>  
+  <img src="figures/volcano.png" alt="Figure 6: Volcano plot showing the significant genes" width="800">  
+  <figcaption>Figure 6: Volcano plot showing the significant genes</figcaption>  
+</figure>
+
 ## 4\.  Functional Enrichment Analysis
 
 Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in the upregulated genes. 
 
 <figure>  
-  <img src="figures/shinygo_enrichment.png" alt="Figure 6: Key pathways and biological processes associated with upregulated genes" width="800">  
-  <figcaption>Figure 6: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
+  <img src="figures/shinygo_enrichment.png" alt="Figure 7: Key pathways and biological processes associated with upregulated genes" width="800">  
+  <figcaption>Figure 7: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
 </figure>
 
 ## 5\. Visualisation of Top 5 Upregulated Pathways
@@ -87,8 +92,8 @@ Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in 
 The top 5 upregulated pathways were visualised using a lollipop plot, showing the number of associated genes and scaled by the \-log10 of the p-value to indicate pathway significance.
 
 <figure>  
-  <img src="figures/upreg_pathways.png" alt="Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800">  
- <figcaption>Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
+  <img src="figures/upreg_pathways.png" alt="Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800">  
+ <figcaption>Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
 </figure>
 
 ### 5.1 Biological Significance of Top 3 Enriched Pathways
