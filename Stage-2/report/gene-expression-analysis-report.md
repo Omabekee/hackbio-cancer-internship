@@ -92,7 +92,7 @@ Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in 
 The top 5 upregulated pathways were visualised using a lollipop plot, showing the number of associated genes and scaled by the \-log10 of the p-value to indicate pathway significance.
 
 <figure>  
-  <img src="figures/upreg_pathways.png" alt="Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800">  
+  <img src="figures/upreg_pathways.png" alt="Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes" width="600">  
  <figcaption>Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
 </figure>
 
