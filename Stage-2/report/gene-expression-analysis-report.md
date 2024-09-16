@@ -74,7 +74,7 @@ pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)
 **Cut-offs:** fold change ( \> 1.5 and \< \-1.5), and a p-value (0.05).
 
 <figure>  
-  <img src="figures/volcano_plot.png" alt="Figure 6: Volcano plot showing the significant genes" width="400">  
+  <img src="figures/volcano_plot_new.png" alt="Figure 6: Volcano plot showing the significant genes" width="400">  
   <figcaption>Figure 6: Volcano plot showing the significant genes</figcaption>  
 </figure>
 
