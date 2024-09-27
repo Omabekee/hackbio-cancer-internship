@@ -1,4 +1,4 @@
-## Integrating Machine Learning and Differential Expression Analysis to Identify Key Biomarkers in Lymphoid Leukemia: Pathwways, Predictions and Future Directions
+## Integrating Machine Learning and Differential Expression Analysis to Identify Key Biomarkers in Lymphoid Leukemia: Pathways, Predictions and Future Directions
 
 This project involves the identification of key biomarkers associated with primary and recurrent lymphoid leukemia (LL) samples, using differential gene expression analysis (DGE) and machine learning (Random forest). The analysis was performed by the OncoHackers team using several R libraries for data preprocessing, visualization, DGE analysis and ML classification.
 
@@ -37,6 +37,17 @@ To load libraries after installation, use `library(packagename)`
 
 
 The analysis workflow, including all steps, detailed methodology,  data preprocessing and results, are comprehensively documented within the [project report](https://github.com/Omabekee/hackbio-cancer-internship/blob/main/Stage-3/report/DGE-ML-for-biomarker-discovery.md).
+
+### Biological Significance of Top Dysregulated Genes
+In our analysis, we identified three key genes linked to lymphoid leukemia: AKR1C3, ARHGEF11, and AHNAK.
+
+**AKR1C3** is known to play a role in steroid metabolism and inflammation, and its high levels are connected to resistance to chemotherapy in T-cell Acute Lymphoblastic Leukemia (T-ALL). It also affects immune pathways like neutrophil chemotaxis, making it a possible target for therapy (Reddie _et al_., 2022).
+
+**ARHGEF11** helps control immune cell movement and is tied to natural killer (NK) cell activity. This gene could be a useful prognostic marker, particularly for immune responses in leukemia treatment (Park _et al_., 2022).
+
+**AHNAK** is involved in calcium signaling and immune cell migration. Its elevated expression is associated with relapse in T-ALL, and it plays a role in immune surveillance, making it a potential target for therapies (Chiaretti _et al_., 2004).
+
+Together, these genes provide insight into immune responses and treatment resistance, highlighting their potential for further leukemia research.
 
 ### Directory Structure
 
