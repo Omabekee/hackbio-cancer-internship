@@ -2,6 +2,8 @@
 
 This project involves the identification of key biomarkers associated with primary and recurrent lymphoid leukemia (LL) samples, using differential gene expression analysis (DGE) and machine learning (Random forest). The analysis was performed by the OncoHackers team using several R libraries for data preprocessing, visualization, DGE analysis and ML classification.
 
+---
+
 ### **Libraries Used**
 
 1. **tidyverse**: A collection of R packages for data manipulation, organization and visualization.  
@@ -28,6 +30,8 @@ This project involves the identification of key biomarkers associated with prima
 **Code:** To install packages, use `install.packages(“packagename”)`  
 To load libraries after installation, use `library(packagename)` 
 
+---
+
 ### Analysis Workflow
 
 <figure>  
@@ -37,6 +41,8 @@ To load libraries after installation, use `library(packagename)`
 
 
 The analysis workflow, including all steps, detailed methodology,  data preprocessing and results, are comprehensively documented within the [project report](https://github.com/Omabekee/hackbio-cancer-internship/blob/main/Stage-3/report/DGE-ML-for-biomarker-discovery.md).
+
+---
 
 ### Biological Significance of Top Dysregulated Genes
 In our analysis, we identified three key genes linked to lymphoid leukemia: AKR1C3, ARHGEF11, and AHNAK.
@@ -49,6 +55,8 @@ In our analysis, we identified three key genes linked to lymphoid leukemia: AKR1
 
 Together, these genes provide insight into immune responses and treatment resistance, highlighting their potential for further leukemia research.
 
+---
+
 ### Directory Structure
 
 **/code**: This directory contains all the R codes used for analysis for each step in the workflow.
@@ -60,3 +68,16 @@ Together, these genes provide insight into immune responses and treatment resist
 **/ouput**: The output directory contains results from the project such as .csv files of the filtered significant genes obtained after analysis.
 
 **/report**: This is where you’ll find the project report documenting the steps, methodology and interpretations of the analysis.
+
+---
+
+### Contributors (SlackID)
+Chioma Onyido: Omabekee
+Chairunnisa Amanda: AmandaC
+Bassam Elhamsa: Bassam_Elhamsa
+Chukwuemeka Nwachuya: Emzy247
+Emmanuel Afolayemi: EA(NOVACHRONO)
+Hayford Osei Offei: Hayford72
+Oluwatobi Ogundepo: Oluwatobi
+
+Please reach out to the contributors if you've any questions.
