@@ -72,12 +72,13 @@ Together, these genes provide insight into immune responses and treatment resist
 ---
 
 ### Contributors (SlackID)
-Chioma Onyido: Omabekee
-Chairunnisa Amanda: AmandaC
-Bassam Elhamsa: Bassam_Elhamsa
-Chukwuemeka Nwachuya: Emzy247
-Emmanuel Afolayemi: EA(NOVACHRONO)
-Hayford Osei Offei: Hayford72
-Oluwatobi Ogundepo: Oluwatobi
+1. **Chioma Onyido**: Omabekee
+2. **Chairunnisa Amanda**: AmandaC
+3. **Bassam Elhamsa**: Bassam_Elhamsa
+4. **Chukwuemeka Nwachuya**: Emzy247
+5. **Ibrahim Fangary**: IbrahimFangary
+6. **Emmanuel Afolayemi**: EA(NOVACHRONO)
+7. **Hayford Osei Offei**: Hayford72
+8. **Oluwatobi Ogundepo**: Oluwatobi
 
-Please reach out to the contributors if you've any questions.
+Please reach out to any the contributors if you've any questions.
