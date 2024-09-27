@@ -2,7 +2,7 @@
 
 ### Authors (@slack): Chairunnisa Amanda (@AmandaC), Bassam Elhamsa (@Bassam\_Elhamsa), Chioma Onyido (@Omabekee), Chukwuemeka Nwachuya (@Emzy247), Emmanuel Afolayemi (@EA(NOVACHRONO)), Hayford Osei Offei (@Hayford72), Oluwatobi Ogundepo (@Oluwatobi)
 
-#### GitHub Code: [https://bit.ly/3zBAjAC](DGE-ML-biomarker R Script)
+#### GitHub Code: [DGE-ML-biomarker R Script](https://bit.ly/3zBAjAC)
 
 ## 1. Introduction to Lymphoid Leukemias
 
