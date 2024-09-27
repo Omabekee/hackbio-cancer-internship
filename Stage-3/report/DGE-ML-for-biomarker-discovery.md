@@ -4,9 +4,20 @@
 
 #### GitHub Code: [DGE-ML-biomarker-analysis R Script](https://github.com/Omabekee/hackbio-cancer-internship/blob/main/Stage-3/code/DGE-ML-Analysis.R)
 
-1. [Introduction](#introduction-to-lymphoid-leukemias)
+## TABLE OF CONTENTS
+1. [Introduction](#1-introduction-to-lymphoid-leukemias)
    1.1 [Project Aim](#project-aim)
-2. [Dataset and Data Preprocessing](#description-of-dataset-and-data-preprocessing-steps)
+2. [Dataset and Data Preprocessing](#2-description-of-dataset-and-data-preprocessing-steps)
+   2.1 [Handling Missing Values](#21-handling-missing-values)
+   2.2 [Normalisation and Filtering](#22-normalisation-and-filtering)
+3. [Methodology for Biomarker Discovery](#3-methodology-for-biomarker-discovery)
+   3.1 [Differential Expression Analysis](#31-differential-gene-expression-analysis-dge)
+   3.2 [Functional Enrichment Analysis](#32-functional-enrichment-analysis)
+   3.3 [Pathway Visualisation](#33-pathway-visualisation)
+4. [Methodology for Machine Learning Analysis](#4-methodology-for-machine-learning-analysis)
+5. [Result and Interpretation](#5-result-and-interpretation-of-model-performance)
+6. [Conclusion and Future Directions for Research](#6-conclusion-and-future-directions-for-research)
+7. [References](#7-references)
 
 
 
