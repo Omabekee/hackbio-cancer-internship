@@ -4,8 +4,8 @@
 
 #### GitHub Code: [DGE-ML-biomarker-analysis R Script](https://github.com/Omabekee/hackbio-cancer-internship/blob/main/Stage-3/code/DGE-ML-Analysis.R)
 
-1. [Introduction] (#introduction-to-lymphoid-leukemias)
-   1.1 [Project Aim] (#project-aim)
+1. [Introduction](#introduction-to-lymphoid-leukemias)
+   1.1 [Project Aim](#project-aim)
 2. [Dataset and Data Preprocessing](#description-of-dataset-and-data-preprocessing-steps)
 
 
