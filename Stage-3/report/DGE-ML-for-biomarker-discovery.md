@@ -4,6 +4,8 @@
 
 #### GitHub Code: [DGE-ML-biomarker-analysis R Script](https://github.com/Omabekee/hackbio-cancer-internship/blob/main/Stage-3/code/DGE-ML-Analysis.R)
 
+---
+
 ## Table of Contents
 1. [Introduction](#1-introduction-to-lymphoid-leukemias)
 2. [Dataset and Data Preprocessing](#2-description-of-dataset-and-data-preprocessing-steps)
@@ -13,8 +15,7 @@
 6. [Conclusion and Future Directions for Research](#6-conclusion-and-future-directions-for-research)
 7. [References](#references)
 
-
-
+---
 ## 1. Introduction to Lymphoid Leukemias
 
 Lymphoid leukemias (LL) are blood cancers resulting from the abnormal growth of lymphoid cells- B, T, or NK cells. They are categorised into acute lymphoblastic leukaemia (ALL), common in children, and chronic lymphocytic leukaemia (CLL), more common in adults, especially the elderly (Chennamadhavuni _et al_., 2023).
@@ -104,7 +105,7 @@ After the analysis, the model achieved a prediction accuracy of 80%. Out of the 
 
 This project combined machine learning and differential expression analysis to identify key biomarkers in LL. Through DEG and functional enrichment analysis, we were able to identify specific molecular changes between the two stages- primary and recurrent. The analysis revealed important genes like AKR1C3, ARHGEF11 and AHNAK which show potential as therapeutic and diagnostic biomarkers for early detection and more effective therapies. Although our random forest classifier achieved 80% prediction accuracy, some primary and recurrent samples were misclassified, indicating areas for improvement. Future directions include refining the model for higher accuracy, expanding sample sizes and integrating additional data types to provide a more comprehensive understanding of LL.
 
-
+---
 
 ## References
 
