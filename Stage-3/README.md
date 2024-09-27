@@ -82,3 +82,11 @@ Together, these genes provide insight into immune responses and treatment resist
 8. **Oluwatobi Ogundepo**: Oluwatobi
 
 Please reach out to any the contributors if you've any questions.
+
+---
+
+### References
+1. Chiaretti, S., Li, X., Gentleman, R., Vitale, A., Vignetti, M., Mandelli, F., Ritz, J., & Foa, R. (2004). Gene expression profile of adult T-cell acute lymphocytic leukemia identifies distinct subsets of patients with different response to therapy and survival. Blood, 103(7), 2771–2778. https://doi.org/10.1182/blood-2003-09-3243
+2. Park, H., Kang, S., Kim, I., Kim, S., Kim, H.-J., Shin, D.-Y., Kim, D.-Y., Lee, K.-H., Ahn, J.-S., Sohn, S.-K., Lee, J.-O., Cheong, J.-W., Kim, K. H., Kim, H.-G., Kim, H., Lee, Y. J., Nam, S.-H., Do, Y. R., Park, S.-G., … Park, S. (2022). The association of genetic alterations with response rate in newly diagnosed chronic myeloid leukemia patients. Leukemia Research, 114, 106791. https://doi.org/10.1016/j.leukres.2022.106791
+3. Reddi, D., Seaton, B. W., Woolston, D., Aicher, L., Monroe, L. D., Mao, Z. J., Harrell, J. C., Radich, J. P., Advani, A., Papadantonakis, N., & Yeung, C. C. S. (2022). AKR1C3 expression in T acute lymphoblastic leukemia/lymphoma for clinical use as a biomarker. Scientific Reports, 12(1), 1–8. https://doi.org/10.1038/s41598-022-09697-6
+
