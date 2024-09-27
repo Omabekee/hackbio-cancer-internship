@@ -1,4 +1,4 @@
-## Integrating Machine Learning and Differential Expression Analysis to Identify Key Biomarkers in Lymphoid Leukemia
+## Integrating Machine Learning and Differential Expression Analysis to Identify Key Biomarkers in Lymphoid Leukemia: Pathwways, Predictions and Future Directions
 
 This project involves the identification of key biomarkers associated with primary and recurrent lymphoid leukemia (LL) samples, using differential gene expression analysis (DGE) and machine learning (Random forest). The analysis was performed by the OncoHackers team using several R libraries for data preprocessing, visualization, DGE analysis and ML classification.
 
@@ -26,7 +26,6 @@ This project involves the identification of key biomarkers associated with prima
 20. **SummarizedExperiment**: for managing experimental datasets with metadata and matrix-based assay data.
 
 **Code:** To install packages, use `install.packages(“packagename”)`  
-
 To load libraries after installation, use `library(packagename)` 
 
 ### Analysis Workflow
@@ -41,8 +40,8 @@ The analysis workflow, including all steps, detailed methodology,  data preproce
 
 ### Directory Structure
 
-*/code*: This directory contains all the R codes used for analysis for each step in the workflow.    
-*/data*: In this folder, you will find the .csv format of the gene expression data downloaded from TCGA. 
-*/figures*: This directory holds the figures generated during the analysis, including the volcano plot, confusion matrix and lollipop plots of the top pathways.    
-*/ouput*: The output directory contains results from the project such as .csv files of the filtered significant genes obtained after analysis.    
-*/report*: This is where you’ll find the project report documenting the steps, methodology and interpretations of the analysis.
+**/code**: This directory contains all the R codes used for analysis for each step in the workflow.    
+**/data**: In this folder, you will find the .csv format of the gene expression data downloaded from TCGA. 
+**/figures**: This directory holds the figures generated during the analysis, including the volcano plot, confusion matrix and lollipop plots of the top pathways.    
+**/ouput**: The output directory contains results from the project such as .csv files of the filtered significant genes obtained after analysis.    
+**/report**: This is where you’ll find the project report documenting the steps, methodology and interpretations of the analysis.
