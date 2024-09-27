@@ -9,7 +9,7 @@
 Lymphoid leukemias (LL) are blood cancers resulting from the abnormal growth of lymphoid cells- B, T, or NK cells. They are categorised into acute lymphoblastic leukaemia (ALL), common in children, and chronic lymphocytic leukaemia (CLL), which affects adults (Futami & Corey, 2010).
 
 <figure>  
-  <img src="figures/fig1.png" alt="Figure 1: AI-generated image showing the transition from primary to recurrent lymphoid leukemia, the progression of healthy cells to cancerous ones and their recurrence after treatment" width="800">  
+  <img src="figures/fig1.png" alt="Figure 1: AI-generated image showing the transition from primary to recurrent lymphoid leukemia, the progression of healthy cells to cancerous ones and their recurrence after treatment" width="600">  
   <figcaption>Figure 1: AI-generated image showing the transition from primary to recurrent lymphoid leukemia, the progression of healthy cells to cancerous ones and their recurrence after treatment</figcaption>  
 </figure>
 
@@ -53,13 +53,13 @@ The steps involved filtering pathways based on p-value and q-value, calculating 
 
 
 <figure>  
-  <img src="figures/fig3.png" alt="Figure 3:  Key Pathways and Biological Processes Associated With Upregulated Genes" width="800">  
+  <img src="figures/fig3.png" alt="Figure 3:  Key Pathways and Biological Processes Associated With Upregulated Genes" width="600">  
   <figcaption>Figure 3:  Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption> 
 </figure>
 
 
 <figure>  
-  <img src="figures/fig4.png" alt="Figure 4:  Key Pathways and Biological Processes Associated With Downregulated Genes" width="800">  
+  <img src="figures/fig4.png" alt="Figure 4:  Key Pathways and Biological Processes Associated With Downregulated Genes" width="600">  
   <figcaption>Figure 4:  Key Pathways and Biological Processes Associated With Downregulated Genes</figcaption> 
 </figure>
 
@@ -79,7 +79,7 @@ A random forest classification model was built to classify sample type—either 
 After the analysis, the model achieved a prediction accuracy of 80%. Out of the 10 samples used for the testing, the model accurately predicted 4/5 Primaries and 4/5 Recurrent cancer samples
 
 <figure>  
-  <img src="figures/fig5.png" alt="Figure 5:  Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="800">  
+  <img src="figures/fig5.png" alt="Figure 5:  Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="600">  
   <figcaption>Figure 5:  Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach</figcaption> 
 </figure>
 
