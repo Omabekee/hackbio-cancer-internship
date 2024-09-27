@@ -40,8 +40,12 @@ The analysis workflow, including all steps, detailed methodology,  data preproce
 
 ### Directory Structure
 
-**/code**: This directory contains all the R codes used for analysis for each step in the workflow.    
+**/code**: This directory contains all the R codes used for analysis for each step in the workflow.
+
 **/data**: In this folder, you will find the .csv format of the gene expression data downloaded from TCGA.
-**/figures**: This directory holds the figures generated during the analysis, including the volcano plot, confusion matrix and lollipop plots of the top pathways.    
-**/ouput**: The output directory contains results from the project such as .csv files of the filtered significant genes obtained after analysis.    
+
+**/figures**: This directory holds the figures generated during the analysis, including the volcano plot, confusion matrix and lollipop plots of the top pathways.
+
+**/ouput**: The output directory contains results from the project such as .csv files of the filtered significant genes obtained after analysis.
+
 **/report**: This is where you’ll find the project report documenting the steps, methodology and interpretations of the analysis.
