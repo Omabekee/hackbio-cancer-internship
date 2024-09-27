@@ -31,7 +31,7 @@ To load libraries after installation, use `library(packagename)`
 ### Analysis Workflow
 
 <figure>  
-  <img src="./DGE-ML-Roadmap.png" alt="Figure 7: My Biomarker Discovery Roadmap" width="600">  
+  <img src="./DGE-ML-Roadmap2.png" alt="Figure 7: My Biomarker Discovery Roadmap" width="600">  
   <figcaption>Figure 7: Biomarker Discovery Roadmap</figcaption>  
 </figure>
 
