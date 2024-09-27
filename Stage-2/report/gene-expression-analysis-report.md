@@ -1,25 +1,28 @@
-## Gene Expression Analysis and Visualisation of Glioblastoma Data
+# Gene Expression Analysis and Visualisation of Glioblastoma Data
 
-#### Authors (@slack): Chairunnisa Amanda (@AmandaC), Bassam Elhamsa (@Bassam\_Elhamsa), Chioma Onyido (@Omabekee), Chukwuemeka Nwachuya (@Emzy247), Emmanuel Afolayemi (@EA(NOVACHRONO)), Hayford Osei Offei (@Hayford72), Ibrahim Fangary (@IbrahimFangary)
+### Authors (@slack): Chairunnisa Amanda (@AmandaC), Bassam Elhamsa (@Bassam\_Elhamsa), Chioma Onyido (@Omabekee), Chukwuemeka Nwachuya (@Emzy247), Emmanuel Afolayemi (@EA(NOVACHRONO)), Hayford Osei Offei (@Hayford72), Ibrahim Fangary (@IbrahimFangary)
 
-#### GitHub Code: https://bit.ly/3XIVABC
+### GitHub Code: https://bit.ly/3XIVABC
 
-#### 1\. Introduction
+## 1\. Introduction
 
-This report covers gene expression analysis, visualisation and interpretation, using the expression profiles of glioblastoma samples, where each value shows a gene's expression level in a specific sample.
+This report covers gene expression analysis, visualisation and interpretation using the expression profiles of glioblastoma samples, where each value shows a gene's expression level in a specific sample.
 
-#### 2\. Heatmap Visualisation and the Importance of Colour Palettes in Gene Expression Analysis
+## 2\. Heatmap Visualisation and the Importance of Colour Palettes in Gene Expression Analysis
 
 Heatmaps were used to visualise gene expression levels across samples, highlighting upregulated and downregulated genes. Two colour palettes, diverging and sequential, were used to aid interpretation.
 
-##### 2.1 Diverging Colour Palette
+### 2.1 Diverging Colour Palette
 
 The diverging palette shows high (brown) and low (blue) expression values, with a neutral colour (white) in the middle, making it easy to see contrasts between upregulated and downregulated genes across samples.
 
-![Figure 1: Gene expression diverging heatmap](figures/diverging_color_scale.png "Figure 1: Gene expression diverging heatmap")
+<figure>  
+  <img src="figures/diverging_color_scale.png" alt="Figure 1: Gene expression diverging heatmap" width="800">  
+  <figcaption>Figure 1: Gene expression diverging heatmap</figcaption>  
+</figure>
 
 
-2.2  Sequential Color Palette  
+### 2.2  Sequential Color Palette  
 The sequential palette as displayed in Figure 2 showed a gradient of values, making it easier to identify subtle differences in gene expression. They are also useful for visualising the increasing levels of gene expression activity across samples.
 
 <figure>  
@@ -28,10 +31,9 @@ The sequential palette as displayed in Figure 2 showed a gradient of values, mak
 </figure>
 
 
-##### 2.3 Clustering Methods in the Heatmap
+### 2.3 Clustering Methods in the Heatmap
 
 Heatmaps were created using three different clustering methods: clustering by genes (rows), clustering by samples (columns) and clustering by both genes and samples (rows and columns) (Zhao *et al*., 2014\). 
-
 
 
 <figure>  
@@ -40,24 +42,26 @@ Heatmaps were created using three different clustering methods: clustering by ge
 </figure>
 
 
-
+<p>&nbsp;</p>
 <figure>  
   <img src="figures/heatmap_by_samples.png" alt="Figure 4: Clustering by samples heatmap" width="800">  
   <figcaption>Figure 4: Clustering by samples heatmap</figcaption>  
 </figure>
 
 
+<p>&nbsp;</p>
 <figure>  
   <img src="figures/heatmap_by_genes_samples.png" alt="Figure 5: Clustering by genes and samples heatmap" width="800">  
   <figcaption>Figure 5: Clustering by genes and samples heatmap</figcaption>  
 </figure>
 
 
-#### 3\. Identification of Significant Genes
+
+## 3\. Identification of Significant Genes
 
 Samples were grouped into two based on heatmap clusters for analysis (Figure 1). 
 
-##### 3.1 Calculate Fold Change and P-value
+### 3.1 Calculate Fold Change (FC) and P-value
 
 **Fold change** was calculated using the formula:   
 log2FC \= log2(groupB\_mean+0.5) \- log2(groupA\_mean+0.5)  
@@ -69,25 +73,30 @@ pvalue \= wilcox.test (mean gene counts in groupA, mean gene counts in groupB)
 
 **Cut-offs:** fold change ( \> 1.5 and \< \-1.5), and a p-value (0.05).
 
-#### 4\.  Functional Enrichment Analysis
+<figure>  
+  <img src="figures/volcano_plot_new.png" alt="Figure 6: Volcano plot showing the significant genes" width="800">  
+  <figcaption>Figure 6: Volcano plot showing the significant genes</figcaption>  
+</figure>
+
+## 4\.  Functional Enrichment Analysis
 
 Next, ShinyGO (Ge et al., 2020\) was used to identify key  pathways enriched in the upregulated genes. 
 
 <figure>  
-  <img src="figures/shinygo_enrichment.png" alt="Figure 6: Key pathways and biological processes associated with upregulated genes" width="800">  
-  <figcaption>Figure 6: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
+  <img src="figures/shinygo_enrichment.png" alt="Figure 7: Key pathways and biological processes associated with upregulated genes" width="800">  
+  <figcaption>Figure 7: Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption>  
 </figure>
 
-#### 5\. Visualisation of Top 5 Upregulated Pathways
+## 5\. Visualisation of Top 5 Upregulated Pathways
 
 The top 5 upregulated pathways were visualised using a lollipop plot, showing the number of associated genes and scaled by the \-log10 of the p-value to indicate pathway significance.
 
 <figure>  
-  <img src="figures/upreg_pathways.png" alt="Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes" width="800">  
- <figcaption>Figure 7: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
+  <img src="figures/upreg_pathways.png" alt="Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes" width="600">  
+ <figcaption>Figure 8: Top 5 Enriched Pathways Associated with Upregulated Genes</figcaption>  
 </figure>
 
-##### 5.1 Biological Significance of Top 3 Enriched Pathways
+### 5.1 Biological Significance of Top 3 Enriched Pathways
 
 **1\. Maltose Metabolic Process:** Cancer cells can use maltose (converted to glucose) for energy, driving proliferation and other processes, which may significantly impact glioma progression by promoting tumour growth and invasion (Hanahan & Weinberg, 2011).
 
@@ -96,7 +105,7 @@ The top 5 upregulated pathways were visualised using a lollipop plot, showing th
 **3\. Disaccharide Metabolic Process**: Cancer cells are known for their reliance on glucose, and glioblastoma cells use disaccharide breakdown to sustain their energy (Lea & desBordes, 2020; Nguyen *et al*., 2022).
 
 
-#### REFERENCES
+## REFERENCES
 
 1. Ge, S. X., Jung, D., & Yao, R. (2020). ShinyGO: A graphical gene-set enrichment tool for animals and plants. *Bioinformatics*, *36*(8), 2628–2629. [https://doi.org/10.1093/bioinformatics/btz931](https://doi.org/10.1093/bioinformatics/btz931)
 
