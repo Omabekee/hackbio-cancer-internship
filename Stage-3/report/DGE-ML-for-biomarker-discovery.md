@@ -6,7 +6,7 @@
 
 ## 1. Introduction to Lymphoid Leukemias
 
-Lymphoid leukemias (LL) are blood cancers resulting from the abnormal growth of lymphoid cells- B, T, or NK cells. They are categorised into acute lymphoblastic leukaemia (ALL), common in children, and chronic lymphocytic leukaemia (CLL), more common in adults, especially the elderly (Chennamadhavuni, 2023).
+Lymphoid leukemias (LL) are blood cancers resulting from the abnormal growth of lymphoid cells- B, T, or NK cells. They are categorised into acute lymphoblastic leukaemia (ALL), common in children, and chronic lymphocytic leukaemia (CLL), more common in adults, especially the elderly (Chennamadhavuni _et al_., 2023).
 
 <figure>  
   <img src="figures/fig1.png" alt="Figure 1: AI-generated image showing the transition from primary to recurrent lymphoid leukemia, the progression of healthy cells to cancerous ones and their recurrence after treatment" width="600">  
@@ -28,7 +28,7 @@ The LL dataset was preprocessed by checking for missing or blank values using th
 
 ### 2.2 Normalisation and Filtering
 
-Normalisation and filtering were performed using the `TCGAnalyze_Normalization`, `TCGAnalyze_Filtering` and `betweenlaneNormalization` functions from the TCGAbiolinks and EDASeq R packages to adjust for gene length and sequencing depth.
+Normalisation and filtering were performed using the `TCGAnalyze_Normalization`, `TCGAnalyze_Filtering` and `betweenlaneNormalization` functions from the TCGAbiolinks and EDASeq R packages to adjust for gene length and sequencing depth (Mounir _et al._, 2019).
 
 ## 3. Methodology for Biomarker Discovery
 
