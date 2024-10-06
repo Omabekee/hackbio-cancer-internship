@@ -41,7 +41,7 @@ Normalisation and filtering were performed using the `TCGAnalyze_Normalization`,
 
 ### 3.1 Differential Gene Expression Analysis (DGE)
 
-The analysis was conducted using the `TCGAanalyze_DEA` function from the TCGAbiolinks R package. Comparison was made between "primary" and "recurrent" samples, filtering results by an adjusted p-value < 0.05 and log2 fold change > 1.
+The analysis was conducted using the `TCGAanalyze_DEA` function from the TCGAbiolinks R package. Comparison was made between "primary" and "recurrent" samples, filtering results by an adjusted p-value < 0.01 and log2 fold change > 1.5.
 
 <figure>  
   <img src="figures/fig2.png" alt="Figure 2:  Volcano plot showing the significant genes between primary and recurrent LL samples" width="800">  
