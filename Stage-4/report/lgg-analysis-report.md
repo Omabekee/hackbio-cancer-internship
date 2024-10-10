@@ -23,7 +23,7 @@ Low-Grade Gliomas (LGGs) are slow-growing brain tumors classified as Grade II gl
 
 <figure>  
   <img src="figures/analysis-workflow.png" alt="Figure 1:  Analysis Workflow" width="400">  
-  <figcaption>Figure 1: Analysis Workflow</figcaption>  
+  <figcaption>Figure 1: Analysis Workflow Highlighting Key Steps in LGG Analysis</figcaption>  
 </figure>
 
 
