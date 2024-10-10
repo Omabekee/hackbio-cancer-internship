@@ -109,7 +109,7 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 
 
 <figure>  
-  <img src="figures/rf-top-genes.jpg" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="600">  
+  <img src="figures/rf-top-genes.jpg" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="400">  
   <figcaption>Figure 8: Top 20 genes by gini importance that helped the model performance</figcaption> 
 </figure>
 
@@ -126,7 +126,7 @@ The model achieved a prediction accuracy of 91.5%. The model accurately predicte
 </figure>
 
 <figure>  
-  <img src="figures/performance-metrics-knn.png" alt="Figure 10: Summary of Performance Metrics for KNN Model" width="600">  
+  <img src="figures/performance-metrics-knn.png" alt="Figure 10: Summary of Performance Metrics for KNN Model" width="400">  
   <figcaption>Figure 10: Summary of Performance Metrics for KNN Model</figcaption> 
 </figure>
 
