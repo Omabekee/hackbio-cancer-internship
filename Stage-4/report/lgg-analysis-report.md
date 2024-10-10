@@ -97,7 +97,7 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 ### 5.1 Performance of Random Forest Model
 
 <figure>  
-  <img src="figures/rf-conf-matrix.png" alt="Figure 6:  Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="800">  
+  <img src="figures/rf-confusion-matrix.jpg" alt="Figure 6:  Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="800">  
   <figcaption>Figure 6: Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach</figcaption> 
 </figure>
 
@@ -109,7 +109,7 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 
 
 <figure>  
-  <img src="figures/rf-top-genes" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="600">  
+  <img src="figures/rf-top-genes.jpg" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="600">  
   <figcaption>Figure 8: Top 20 genes by gini importance that helped the model performance</figcaption> 
 </figure>
 
