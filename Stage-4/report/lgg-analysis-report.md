@@ -134,7 +134,7 @@ The model achieved a prediction accuracy of 91.5%. The model accurately predicte
 
 ## 6. Conclusion and Future Directions for Research
 
-This project combined machine learning and differential expression analysis to identify key biomarkers in LGG. Through DEG  functional enrichment analysis, we were able to identify gene expression patterns associated with IDH mutation status in LGG by performing differential expression and building a KNN and Random forest classifiers. Some of the top genes identified were Chitinase-3-like-protein 1 (CHI31), Complement C1q-like protein 1 (C1QL1) and Fibrimodulin (FMOD)  which are associated with locomotory behavior, motor learning, apoptopic and inflammatory response. The KNN and Random Forest models achieved a prediction accuracy of 91.5% and 90.1% respectively, with few wild-type (WT) samples were misclassified, revealing areas for further refinement.  
+This project combined machine learning and differential expression analysis to identify gene expression patterns associated with IDH mutation status in LGG. Some of the top genes identified were Chitinase-3-like-protein 1 (CHI31), Complement C1q-like protein 1 (C1QL1) and Fibrimodulin (FMOD)  which are associated with locomotory behavior, motor learning, apoptopic and inflammatory response. The KNN and Random Forest models achieved a prediction accuracy of 91.5% and 90.1% respectively, with few wild-type (WT) samples were misclassified, revealing areas for further refinement.  
 Future directions include improving model accuracy through different machine learning algorithms and integrating additional data sources like proteomic data to improve diagnostics and tailored therapeutic strategies for LGG patients.
 
 ---
