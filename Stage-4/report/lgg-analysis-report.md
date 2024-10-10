@@ -22,7 +22,7 @@
 Low-Grade Gliomas (LGGs) are slow-growing brain tumors classified as Grade II gliomas by the World Health Organization (Ravanpay *et al*., 2018). Despite their slower growth, they can infiltrate brain tissue and progress to more aggressive forms. A key biomarker in LGG is the IDH mutation, which is associated with better prognosis, while IDH-wild type tumors tend to behave more aggressively (Solomou *et al*., 2023). 
 
 <figure>  
-  <img src="figures/analysis-workflow.png" alt="Figure 1:  Analysis Workflow" width="800">  
+  <img src="figures/analysis-workflow.png" alt="Figure 1:  Analysis Workflow" width="400">  
   <figcaption>Figure 1: Analysis Workflow</figcaption>  
 </figure>
 
