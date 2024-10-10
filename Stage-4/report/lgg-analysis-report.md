@@ -67,13 +67,13 @@ Functional enrichment was performed on 412 upregulated and 1,417 downregulated g
 
 
 <figure>  
-  <img src="figures/top-reg.png" alt="Figure 3:  Key Pathways and Biological Processes Associated With Upregulated Genes" width="800">  
+  <img src="figures/GO-upreg.png" alt="Figure 3:  Key Pathways and Biological Processes Associated With Upregulated Genes" width="800">  
   <figcaption>Figure 3:  Key Pathways and Biological Processes Associated With Upregulated Genes</figcaption> 
 </figure>
 
 
 <figure>  
-  <img src="figures/down-reg.png" alt="Figure 4:  Key Pathways and Biological Processes Associated With Downregulated Genes" width="800">  
+  <img src="figures/GO-downreg.png" alt="Figure 4:  Key Pathways and Biological Processes Associated With Downregulated Genes" width="800">  
   <figcaption>Figure 4: Key Pathways and Biological Processes Associated With Downregulated Genes</figcaption> 
 </figure>
 
