@@ -109,7 +109,7 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 ### 5.1 Performance of Random Forest Model
 
 <figure>  
-  <img src="figures/rf-confusion-matrix.jpg" alt="Figure 6: Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="800">  
+  <img src="figures/rf-confusion-matrix.jpg" alt="Figure 6: Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="600">  
   <figcaption>Figure 6: Confusion Matrices Summarising the Performance of the Model</figcaption> 
 </figure>
 
@@ -133,7 +133,7 @@ The model achieved a prediction accuracy of 91.5%. The model accurately predicte
 
 
 <figure>  
-  <img src="figures/KNN-conf-matrix.png" alt="Figure 9: Confusion matrices (CM) summarising the performance of the model on the test data" width="800">  
+  <img src="figures/KNN-conf-matrix.png" alt="Figure 9: Confusion matrices (CM) summarising the performance of the model on the test data" width="600">  
   <figcaption>Figure 9: Confusion Matrices Summarising Model Performance</figcaption> 
 </figure>
 
