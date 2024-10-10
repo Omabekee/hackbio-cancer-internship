@@ -103,13 +103,13 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 
 
 <figure>  
-  <img src="figures/rf-performance-metrics.jpg" alt="Figure 7: Summary of performance metrics for random forest model" width="600">  
+  <img src="figures/rf-performance-metrics.jpg" alt="Figure 7: Summary of performance metrics for random forest model" width="400">  
   <figcaption>Figure 7: Summary of performance metrics for random forest model</figcaption> 
 </figure>
 
 
 <figure>  
-  <img src="figures/rf-top-genes.jpg" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="400">  
+  <img src="figures/rf-top-genes.JPG" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="600">  
   <figcaption>Figure 8: Top 20 genes by gini importance that helped the model performance</figcaption> 
 </figure>
 
