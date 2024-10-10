@@ -6,10 +6,25 @@
 
 ---
 
+## Table of Contents
+1. [Introduction](#1-introduction-to-low-grade-glioma)
+2. [Dataset and Data Preprocessing](#2-description-of-dataset-and-data-preprocessing-steps)
+3. [Methodology for Biomarker Discovery](#3-methodology-for-biomarker-discovery)
+4. [Methodology for Machine Learning Analysis](#4-methodology-for-machine-learning)
+5. [Result and Interpretation](#5-result-and-interpretation-of-model-performance)
+6. [Conclusion and Future Directions for Research](#6-conclusion-and-future-directions-for-research)
+7. [References](#references)
+
+---
 
 ## 1. Introduction to Low-Grade Glioma
 
 Low-Grade Gliomas (LGGs) are slow-growing brain tumors classified as Grade II gliomas by the World Health Organization (Ravanpay *et al*., 2018). Despite their slower growth, they can infiltrate brain tissue and progress to more aggressive forms. A key biomarker in LGG is the IDH mutation, which is associated with better prognosis, while IDH-wild type tumors tend to behave more aggressively (Solomou *et al*., 2023). 
+
+<figure>  
+  <img src="figures/analysis-workflow.png" alt="Figure 1:  Analysis Workflow" width="800">  
+  <figcaption>Figure 2: Volcano plot showing the significant genes between mutant and wild type LGG samples</figcaption>  
+</figure>
 
 
 ### 1.1 Project Aim:
@@ -37,7 +52,7 @@ The analysis used the `TCGAanalyze_DEA` function from the TCGAbiolinks R package
 
 <figure>  
   <img src="figures/volcano_plot.png" alt="Figure 2:  Volcano plot showing the significant genes between mutant and wild type LGG samples" width="800">  
-  <figcaption>Figure 2: Volcano plot showing the significant genes between mutant and wild type LGG samples</figcaption>  
+  <figcaption>Figure 2: Volcano Plot Showing Significant Genes</figcaption> 
 </figure>
 
 
@@ -75,20 +90,17 @@ After performing DGE, genes were filtered by selecting those with a LogFC > 1 an
 A random forest classification model was built to classify mutation status—mutant or wildtype— using the feature-selected training dataset consisting of 123 genes and 360 samples. 100 genes considered at each split (`mtry = 100`). Model testing was performed on an independent set of 153 samples.
 
 ### 4.2  KNN for Predicting IDH Status
-
-### 4.2.1   Feature extraction
-
 We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wildtype) based on gene expression across samples. After thorough data preprocessing, cleaning, and filtering, we applied the `topPreds` function to identify the top 1000 predictors with the highest standard deviation, which were then used to train the model.
 
 
 <figure>  
   <img src="figures/box.plot.png" alt="Figure 5: Boxplot after log transformation" width="800">  
-  <figcaption>Figure 5: Boxplot after log transformation</figcaption> 
+  <figcaption>Figure 5: Boxplot After Log Transformation</figcaption> 
 </figure>
 
 
 
-###     4.2.2 Model Training and Testing
+###     4.2.1 Model Training and Testing
 
  The data was split into 70:30, resulting in 375 samples for training and 159 for testing. We used cross-validation (via the `ctrl.lgg` function) to ensure thorough sampling and reduce bias during training. The optimal value of k was determined using `knn.lgg$bestTune`, which identified the best `k = 1`.
 
@@ -98,19 +110,19 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 
 <figure>  
   <img src="figures/rf-confusion-matrix.jpg" alt="Figure 6: Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach" width="800">  
-  <figcaption>Figure 6: Confusion matrices (CM) summarising the performance of the model on the test data to give insight into the precision of the classification approach</figcaption> 
+  <figcaption>Figure 6: Confusion Matrices Summarising the Performance of the Model</figcaption> 
 </figure>
 
 
 <figure>  
   <img src="figures/rf-performance-metrics.jpg" alt="Figure 7: Summary of performance metrics for random forest model" width="400">  
-  <figcaption>Figure 7: Summary of performance metrics for random forest model</figcaption> 
+  <figcaption>Figure 7: Summary of Performance Metrics for Random Forest Model</figcaption> 
 </figure>
 
 
 <figure>  
   <img src="figures/rf-top-genes.JPG" alt="Figure 8: Top 20 genes by gini importance that helped the model performance" width="600">  
-  <figcaption>Figure 8: Top 20 genes by gini importance that helped the model performance</figcaption> 
+  <figcaption>Figure 8: Top 20 Genes By Gini Importance</figcaption> 
 </figure>
 
 
@@ -122,7 +134,7 @@ The model achieved a prediction accuracy of 91.5%. The model accurately predicte
 
 <figure>  
   <img src="figures/KNN-conf-matrix.png" alt="Figure 9: Confusion matrices (CM) summarising the performance of the model on the test data" width="800">  
-  <figcaption>Figure 9: Confusion matrices (CM) summarising the performance of the model on the test data</figcaption> 
+  <figcaption>Figure 9: Confusion Matrices Summarising Model Performance</figcaption> 
 </figure>
 
 <figure>  
