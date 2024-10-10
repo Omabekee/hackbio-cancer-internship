@@ -12,13 +12,6 @@
 Low-Grade Gliomas (LGGs) are slow-growing brain tumors classified as Grade II gliomas by the World Health Organization (Ravanpay *et al*., 2018). Despite their slower growth, they can infiltrate brain tissue and progress to more aggressive forms. A key biomarker in LGG is the IDH mutation, which is associated with better prognosis, while IDH-wild type tumors tend to behave more aggressively (Solomou *et al*., 2023). 
 
 
-<figure>  
-  <img src="figures/fig2.png" alt="Figure 2:  Volcano plot showing the significant genes between primary and recurrent LL samples" width="800">  
-  <figcaption>Figure 1:  Volcano plot showing the significant genes between primary and recurrent LL samples</figcaption>  
-</figure>
-
-
-
 ### 1.1 Project Aim:
 
 To identify key biomarkers linked to LGG samples using differential gene expression, enrichment analysis and machine learning. The objective is to predict IDH status and identify top genes of importance, which could aid in improving diagnosis and treatment outcomes.
@@ -110,7 +103,7 @@ We built a K-Nearest Neighbors (KNN) model to predict IDH status (mutant or wild
 
 
 <figure>  
-  <img src="figures/rf-performance-metrics.png" alt="Figure 7: Summary of performance metrics for random forest model" width="600">  
+  <img src="figures/rf-performance-metrics.jpg" alt="Figure 7: Summary of performance metrics for random forest model" width="600">  
   <figcaption>Figure 7: Summary of performance metrics for random forest model</figcaption> 
 </figure>
 
@@ -133,7 +126,7 @@ The model achieved a prediction accuracy of 91.5%. The model accurately predicte
 </figure>
 
 <figure>  
-  <img src="figures/KNN-conf-matrix.png" alt="Figure 10: Summary of Performance Metrics for KNN Model" width="800">  
+  <img src="figures/performance-metrics-knn.png" alt="Figure 10: Summary of Performance Metrics for KNN Model" width="800">  
   <figcaption>Figure 10: Summary of Performance Metrics for KNN Model</figcaption> 
 </figure>
 
