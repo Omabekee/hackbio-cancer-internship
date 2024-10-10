@@ -21,15 +21,15 @@
 
 Low-Grade Gliomas (LGGs) are slow-growing brain tumors classified as Grade II gliomas by the World Health Organization (Ravanpay *et al*., 2018). Despite their slower growth, they can infiltrate brain tissue and progress to more aggressive forms. A key biomarker in LGG is the IDH mutation, which is associated with better prognosis, while IDH-wild type tumors tend to behave more aggressively (Solomou *et al*., 2023). 
 
+### 1.1 Project Aim:
+
+To identify key biomarkers linked to LGG samples using differential gene expression, enrichment analysis and machine learning. The objective is to predict IDH status and identify top genes of importance, which could aid in improving diagnosis and treatment outcomes.
+
 <figure>  
   <img src="figures/analysis-workflow.png" alt="Figure 1:  Analysis Workflow" width="400">  
   <figcaption>Figure 1: Analysis Workflow Highlighting Key Steps in LGG Analysis</figcaption>  
 </figure>
 
-
-### 1.1 Project Aim:
-
-To identify key biomarkers linked to LGG samples using differential gene expression, enrichment analysis and machine learning. The objective is to predict IDH status and identify top genes of importance, which could aid in improving diagnosis and treatment outcomes.
 
 ## 2. Description of Dataset and Data Preprocessing Steps
 
@@ -85,7 +85,7 @@ Functional enrichment was performed on 412 upregulated and 1,417 downregulated g
 
 After performing DGE, genes were filtered by selecting those with a LogFC > 1 and adjusted p-values < 0.01. To avoid collinearity, genes with a correlation higher than 80% were removed, resulting in 364 genes.
 
-### 4.1.1   Model Training and Testing.
+### 4.1.1   Model Training and Testing
 
 A random forest classification model was built to classify mutation status—mutant or wildtype— using the feature-selected training dataset consisting of 123 genes and 360 samples. 100 genes considered at each split (`mtry = 100`). Model testing was performed on an independent set of 153 samples.
 
@@ -146,8 +146,7 @@ The model achieved a prediction accuracy of 91.5%. The model accurately predicte
 
 ## 6. Conclusion and Future Directions for Research
 
-This project combined machine learning and differential expression analysis to identify gene expression patterns associated with IDH mutation status in LGG. Some of the top genes identified were Chitinase-3-like-protein 1 (CHI31), Complement C1q-like protein 1 (C1QL1) and Fibrimodulin (FMOD)  which are associated with locomotory behavior, motor learning, apoptopic and inflammatory response. The KNN and Random Forest models achieved a prediction accuracy of 91.5% and 90.1% respectively, with few wild-type (WT) samples were misclassified, revealing areas for further refinement.  
-Future directions include improving model accuracy through different machine learning algorithms and integrating additional data sources like proteomic data to improve diagnostics and tailored therapeutic strategies for LGG patients.
+This project combined machine learning and differential expression analysis to identify gene expression patterns associated with IDH mutation status in LGG. Top 3 genes identified were CHI31, C1QL1 and FMOD  which are associated with locomotory behavior, motor learning, apoptopic and inflammatory response. The KNN and Random Forest models achieved a prediction accuracy of 91.5% and 90.1% respectively, with few wild-type (WT) samples were misclassified, revealing areas for further refinement. Future directions include improving model accuracy through different machine learning algorithms and integrating additional data sources like proteomic data to improve diagnostics and tailored therapeutic strategies for LGG patients.
 
 ---
 
